@@ -1,6 +1,6 @@
 import sys
-from agent_loop import run_agent
-from memory import get_history, get_failures
+from .agent_loop import run_agent
+from .memory import get_history, get_failures
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

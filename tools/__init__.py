@@ -1,6 +1,6 @@
 from .get_logs import get_logs
 from .restart_service import restart_service
-from .install_dependency import install_dependency
+from .install_dependencies import install_dependency
 from .fix_env import fix_env
 from .fix_config import fix_config
 

@@ -2,7 +2,7 @@ import json
 import os
 from groq import Groq
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key="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")
 
 
 def plan_step(observation, failures):
